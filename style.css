@@ -1,0 +1,51 @@
+* {font-family: helvetica, arial, sans-serif
+}
+h1 {
+	color: red;
+	font-size:25px;
+}
+.paragraph1 {
+	color: blac;
+	font-size: 17px;
+}
+li { color: blac;
+	font-size: 17px;
+ }
+ .paragraph2 {
+ 	color: red;
+ 	font-size: 25px;
+ }
+ h1::first-letter { color: #d2d2d2;
+  }
+      .wrap { width: 80%;
+        background: #668ef3;
+    border: solid 3px black; 
+    float: left;
+     padding: 10px; /* Поля вокруг текста */
+     margin:10px;
+    position: relative; 
+    top: 5px; 
+    left: 5px;
+}
+   .bloc1{
+   	float:left;
+   	background: blue;
+   	padding: 10px; /* Поля вокруг текста */
+   	width: 80%;
+   	margin-bottom: 10px;
+   }
+   .bloc2{
+   	float:left;
+   	background: #bbbbb6;
+   	padding: 5px; /* Поля вокруг текста */
+   	width: 80%;
+   }
+   .bloc3{width: 80%;
+        background: #668ef3;
+    border: solid 1px black; 
+    float: left;
+     padding: 10px; /* Поля вокруг текста */
+     margin:10px; 
+    top: 5px; 
+    left: 5px;
+   }
